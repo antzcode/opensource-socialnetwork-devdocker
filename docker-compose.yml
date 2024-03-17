@@ -13,7 +13,7 @@
 version: "3.7"
 services:
   app:
-    image: antzcode/apache-php-ubuntu:apache2-php7.4-focal
+    image: antzcode/apache-php-ubuntu:apache2-php8.3-noble
     ports:
       - 80:80
     volumes:

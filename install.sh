@@ -13,7 +13,7 @@
 ###################################################################################
 
 # Comment-out the following line to enable the script
-# echo "this script is automatically disabled after installation to prevent accidental data loss" && exit
+echo "this script is automatically disabled after installation to prevent accidental data loss" && exit
 
 
 ############################################################
@@ -93,7 +93,8 @@ log()
 ############################################################
 
 # The file that will be extracted into /www
-GIT_PROJECT_URL=https://github.com/antzcode/opensource-socialnetwork.git
+# 20240318 - updated to latest Git commit #85fee1178932a811ceb44dde669a1ffb714bae30
+GIT_PROJECT_URL=https://github.com/opensource-socialnetwork/opensource-socialnetwork
 
 # The hosts file on the host OS
 HOSTS_FILE=/etc/hosts
